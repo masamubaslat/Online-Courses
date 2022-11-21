@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200&family=Lato:wght@100;300&family=Miniver&family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@100;300;400;700&family=Mrs+Saint+Delafield&family=Noto+Serif:ital@1&family=Open+Sans:wght@300&family=PT+Serif&family=Playball&family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200&family=Lato:wght@100;300&family=Miniver&family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@100;300;400;700&family=Mrs+Saint+Delafield&family=Noto+Serif:ital@1&family=Open+Sans:wght@300&family=PT+Serif&family=Playball&family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@200;300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto Slab', serif;*/
+    font-size: 13px;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --mainColor:#FFB606
+}
+.container{
+    /*%78*/
+    width: 85% !important;
+    margin: auto;
+}
+::selection{
+    background-color: var(--mainColor);
+    color: white;
+}
+.nav_top a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.nav_top a:hover{
+    text-decoration: underline;
+    font-weight:600;
+}
+.navbar-brand{
+    width: 180px;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 20px 10px !important;
+    color: rgb(255, 255, 255) !important;
+} 
+nav .fa-magnifying-glass{
+    font-size: 18px;
+}
+nav .fa-magnifying-glass:hover{
+    color: var(--mainColor) !important;
+}
+/* header*/
+.carousel-item img{
+    width: 100vw;
+    height: 100vh;
+}
+.carousel-caption{
+   top: 40% !important;
+}
+.carousel-caption h1{
+    font-size: 22px;
+    text-transform:uppercase;
+}
+.main-head{
+    font-size: 70px;
+    font-family:'Roboto Slab', serif; 
+    font-weight: 700;
+}
+.main-btn{
+    background-color: var(--mainColor);
+    color: #000;
+    border: none;
+    border-radius: 0%;
+    padding: 9px 35px;
+    text-transform: uppercase;
+}
+.main-btn:hover{
+    background-color: var(--mainColor);
+    color: #000;
+    border: none;
+    border-radius: 0%;
+    opacity: 0.9;
+}
+header .left-content i{
+    font-size: 70px;
+    color: var(--mainColor);
+    padding-right: 15px;
+}
+header .info{
+    position: absolute;
+    bottom: 6%;
+    z-index: 999;
+}
+header .row{
+    gap: 10px;
+}
+header .info .col-lg-4{
+    padding: 1.5rem;
+    width: 32%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+header .info .col-lg-4:hover{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+header .info .col-lg-4 p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    width: 80%;
+    font-family: 'Roboto Slab', serif;
+}
+header .info .col-lg-4 a{
+    color: var(--mainColor);
+    font-size: 17px;
+    text-transform: capitalize;
+}
+/*populer courses*/
+.populer-courses{
+    width: 80%;
+    margin: auto;
+}
+.populer-courses h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+    line-height: 44.8px;
+}
+.populer-courses p{
+    font-family: 'Roboto Slab', serif;
+    color: #999;
+    font-size: 15px;
+    font-weight: 200;
+}
+element.style{
+    width: 265px  !important;
+}
+.carousel-item-body{
+    width: 265px !important;
+}
+.owl-carousel .owl-item img{
+   width: min-content !important;
+}
+.overflow-hidden img{
+    width: 265px !important;
+}
+.carousel-poster .overflow-hidden>img{
+    transition: 0.5s ease;
+}
+.carousel-poster .overflow-hidden>img:hover{
+    transform: scale(1.1);
+}
+.carousel-poster .overflow-hidden:hover .btn-cart{
+    opacity: 1;
+}
+.carousel-poster .overflow-hidden{
+    position: relative;
+}
+.btn-cart{
+    position: absolute;
+    left: 20%;
+    top: 45%;
+    opacity: 0;
+}
+.owl-carousel  .circle{
+    border: 2px solid white;
+    position: absolute;
+    bottom: -12%;
+    left: 35%;
+}
+.carousel-info{
+    border: 1px solid rgb(170, 170, 170);
+    border-top: none;
+}
+.carousel-info a{
+    font-size: 13.5px;
+    text-transform: capitalize;
+    color: #606060;
+    font-family: 'Roboto', sans-serif;
+}
+.carousel-info h3{
+    font-size: 15.75px;
+    color: #333;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.carousel-info h3:hover{
+    color: var(--mainColor);
+}
+.line{
+    width: 100%;
+    height: 0.7px;
+    background-color: #969696;
+    margin: 15px 0px;
+    position: relative;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    left: 43%;
+    background-color: var(--mainColor);
+}
+.carousel-info i{
+    font-size: 17px;
+    padding-right: 7px;
+    color: #969696;
+}
+.carousel-info .price{
+    color: #F24C0A;
+    font-size: 15px;
+}
+.owl-nav{
+    text-align: right;
+}
+.owl-nav .owl-prev, .owl-nav .owl-next{
+    position: absolute;
+    top: -64px;
+    color: #333;
+    line-height: 28px;
+    font-size: 20px !important;
+}
+.owl-nav .owl-prev{
+    right: 7px;
+}
+.owl-nav .owl-prev span, .owl-nav .owl-next span{
+    border: 1px solid #333;
+    padding: 7px 10px;
+}
+
+/* register*/
+.register{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../Images/bg_register_now.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.register p{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+.register p span{
+    color: var(--mainColor);
+}
+.counter{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    font-weight: 600;
+    border-radius: 50%;
+}
+.counter .count{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: -18px !important;
+}
+.counter .caption{
+    font-size: 15px;
+    font-weight: 700;
+}
+.register .right-content h3{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    background-color: var(--mainColor);
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 1.5rem 2rem 3.5rem;
+    margin-bottom: 1rem;
+}
+::placeholder{
+    color: rgb(153, 153, 153);
+}
+.register-form input{
+    border: 1px solid rgb(238, 238, 238);
+    font-size: 13px;
+}
+.register-form input:focus{
+    border-color: var(--mainColor);
+    outline: 0;
+}
+.register-form button{
+    background-color: #000;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 25px;
+}
+.register-form button:hover{
+    background-color: var(--mainColor);
+    color: #000;
+}
